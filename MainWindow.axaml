@@ -1,0 +1,83 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        x:Class="magazine.MainWindow"
+        Title="magazine"
+		Width="1996"
+		Height="919"
+		WindowStartupLocation="CenterScreen"
+	
+		>
+	<Window.Background>
+		<ImageBrush Source="C:\Users\dredd\source\repos\magazine\pictyre\1234.jpg">
+		  </ImageBrush>
+	</Window.Background>
+	
+	<StackPanel
+		Width="400"
+		Height="450"
+		Background="White"
+		Margin="100"
+        VerticalAlignment="Stretch" 
+        HorizontalAlignment="Center"
+		
+		>
+	
+			
+		
+		    <TextBlock
+			Text="Вход с паролем"
+			Margin="40,20,0,0"
+			FontSize="24"
+			FontWeight="ExtraBlack"
+			></TextBlock>
+		
+		<TextBox   
+FontSize="25"
+CornerRadius="10"
+Margin="0,20,0,0"
+Width="349" 
+Height="70" 
+Background="White" 
+Watermark="Телефон или e-mail"
+VerticalContentAlignment="Center"/>
+
+<TextBox
+FontSize="25"
+CornerRadius="10"
+Margin="0,20,0,0"
+Width="349" 
+Height="70" 
+Background="White"
+PasswordChar="*"
+Watermark="Введите пароль"
+VerticalContentAlignment="Center"/>
+		
+<TextBlock
+	Text="Забыли пароль?" 
+	Margin="40,25,0,0" 
+	Foreground="BlueViolet"/>
+		
+<Button
+FontSize="25"
+CornerRadius="10"
+Width="349"
+Height="70"
+Content="Вход"
+Foreground="White"
+Background="Orange"
+HorizontalAlignment="Center"
+Margin="0,25,0,0"
+VerticalContentAlignment="Center"
+HorizontalContentAlignment="Center"
+/> 
+	</StackPanel>
+
+
+
+	
+</Window>
+
+
